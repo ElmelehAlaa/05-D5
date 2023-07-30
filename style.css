@@ -14,7 +14,7 @@ body {
 }
 g[stroke-linecap="butt"] {
   opacity: 1;
-  transition: opacity 2s linear 0s;
+  transition: opacity 1s linear 0s;
 }
 
 .navbar {

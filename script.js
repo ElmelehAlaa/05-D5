@@ -12,10 +12,6 @@ window.onscroll = function () {
 };
 
 const oneM = document.querySelectorAll("g[stroke-linecap");
-// console.log(oneM);
-// console.log(oneM[1].attributes.opacity.value);
-// oneM[1].attributes.opacity.value = 1;
-// console.log(oneM[1].attributes.opacity.value);
 
 const funDisap = function () {
   const mNumber = Math.floor(Math.random() * 560);
