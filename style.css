@@ -266,7 +266,7 @@ button:hover {
 
 /* MEDIA TABLE*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 965px) {
   h1 {
     font-size: 55px;
     padding-top: 40px;
@@ -292,10 +292,11 @@ button:hover {
 
   .trending-on-medium {
     height: max-content;
-    display: inline-block;
+
     width: 100%;
     padding: 0;
     font-size: 16px;
+    display: flex;
   }
   article {
     padding-block: 20px;
@@ -359,6 +360,7 @@ button:hover {
   }
   article {
     font-size: 13px;
+    display: flex;
   }
   .M {
     display: none;
@@ -368,6 +370,9 @@ button:hover {
 @media screen and (max-width: 500px) {
   .container-main {
     display: block;
+  }
+  .navbar img {
+    width: 100%;
   }
   article {
     width: 100%;
@@ -399,6 +404,7 @@ button:hover {
   }
   article {
     padding-block: 20px;
+    padding-inline: 0;
   }
   h3 {
     padding-bottom: 20px;
@@ -419,7 +425,7 @@ button:hover {
     display: block;
   }
   .content-trend {
-    width: 400px;
+    width: 100%;
   }
   .post {
     width: 250px;
