@@ -20,7 +20,7 @@ const funDisap = function () {
     oneM[mNumber].classList.add("disappear");
   }
 };
-setInterval(funDisap, 200);
+setInterval(funDisap, 50);
 
 const funAppear = function () {
   const mNumber = Math.floor(Math.random() * 560);
@@ -29,4 +29,4 @@ const funAppear = function () {
     oneM[mNumber].classList.remove("disappear");
   }
 };
-setInterval(funAppear, 200);
+setInterval(funAppear, 50);

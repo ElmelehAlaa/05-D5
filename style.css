@@ -14,7 +14,15 @@ body {
 }
 g[stroke-linecap="butt"] {
   opacity: 1;
-  transition: opacity 1s linear 0s;
+  transition: opacity 0.3s linear 0s;
+}
+h5:hover {
+  color: red;
+  cursor: pointer;
+}
+p.paragraf-trend:hover {
+  color: #58bb10;
+  cursor: pointer;
 }
 
 .navbar {
@@ -55,6 +63,7 @@ img {
 }
 .bottone-colored {
   background-color: green;
+  transition: background-color 0.3 linear 0s;
 }
 button.menu {
   color: white;
@@ -67,7 +76,15 @@ button.menu {
 .logo {
   flex-grow: 0.7;
 }
-
+.post-date img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  padding: 0;
+}
+.post-date img:hover {
+  background-color: #ffbf00;
+}
 .container-main {
   display: flex;
   justify-content: space-around;
@@ -215,7 +232,7 @@ h3 {
 }
 button:hover {
   cursor: pointer;
-  color: red;
+  color: #0c27ff;
 }
 .container-post button {
   border-color: transparent;
@@ -225,14 +242,7 @@ button:hover {
 .post-date {
   opacity: 70%;
 }
-.post-date::after {
-  content: "....";
-  color: transparent;
-  background-image: url(/assets/imgs/svg/bookmark.svg);
-  width: 20px;
-  height: 20px;
-  background-size: cover;
-}
+
 .content-post {
   line-height: 1.2;
   font-size: 17px;
