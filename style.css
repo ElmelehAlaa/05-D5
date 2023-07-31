@@ -60,10 +60,11 @@ img {
 }
 .nav-button {
   background-color: black;
+  transition: background-color 0.5s linear 0s;
 }
 .bottone-colored {
   background-color: green;
-  transition: background-color 0.3 linear 0s;
+  transition: background-color 0.5s linear 0s;
 }
 button.menu {
   color: white;
