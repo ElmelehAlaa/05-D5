@@ -307,9 +307,11 @@ button:hover {
   }
 
   .container-posts-footer {
-    display: block;
+    display: flex;
     width: 100%;
     padding-left: 15px;
+    flex-direction: column-reverse;
+    gap: 50px;
   }
   .container-post {
     display: block;
@@ -354,6 +356,8 @@ button:hover {
   }
   .footer {
     width: 100%;
+    z-index: 0;
+    position: unset;
   }
   .paragraf-trend {
     font-weight: 600;
@@ -410,9 +414,11 @@ button:hover {
     padding-bottom: 20px;
   }
   .container-posts-footer {
-    display: block;
+    display: flex;
     width: 100%;
     padding-left: 15px;
+    flex-direction: column-reverse;
+    gap: 50px;
   }
   .post-date {
     font-size: 12px;
@@ -439,6 +445,8 @@ button:hover {
   }
   .footer {
     width: 100%;
+    z-index: 0;
+    position: unset;
   }
   .top-button {
     font-size: 13px;
